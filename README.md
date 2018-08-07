@@ -1,6 +1,7 @@
 # Spreadsheet by Michael Salaverry
 
 I always wanted to experiment with PouchDB, RXJS, PWAs, and codesandbox.io . This repo manages to scratch all those itches.
+Mostly developed via https://codesandbox.io/s/github/barakplasma/RXDB-Spreadsheet
 
 ## This project aims to serve a spreadsheet using an MVC model. 
 1. The model is powered by RXDB
