@@ -1,0 +1,36 @@
+{
+  "name": "rxdb-react-spreadsheet",
+  "version": "3.0.0",
+  "dependencies": {
+    "@material-ui/core": "1.4.3",
+    "babel-polyfill": "^6.23.0",
+    "concurrently": "^3.3.0",
+    "pouchdb-adapter-http": "^6.1.2",
+    "pouchdb-adapter-idb": "^6.1.2",
+    "pouchdb-replication": "^6.1.2",
+    "pouchdb-server": "^2.3.4",
+    "ramda": "0.25.0",
+    "react": "16.4.2",
+    "react-datasheet": "1.3.8",
+    "react-dom": "16.4.2",
+    "rxdb": "7.7.1",
+    "rxjs": "6.2.2",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^0.9.0",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "preinstall": "echo \"PREINSTALL\" && npm install --production --prefix ../../",
+    "dev": "PORT=8888 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "server": "pouchdb-server --host 0.0.0.0 -p 10102 -m -d /tmp/pouchdb-server/ -n true"
+  },
+  "keywords": [],
+  "description": "",
+  "license": "MIT"
+}
