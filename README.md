@@ -2,6 +2,7 @@
 
 I always wanted to experiment with PouchDB, RXJS, PWAs, and codesandbox.io . This repo manages to scratch all those itches.
 Mostly developed via https://codesandbox.io/s/github/barakplasma/RXDB-Spreadsheet
+
 Backup hosting of the live demo https://csb-k5yr4p1q3v-sunpztrden.now.sh/
 
 ## This project aims to serve a spreadsheet using an MVC model. 
